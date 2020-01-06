@@ -1,0 +1,21 @@
+{
+    "name": "venkatesh/abstract-factory-pattern",
+    "description": "template descider using abstract factory pattern",
+    "type": "library",
+    "authors": [
+        {
+            "name": "venkatesh nadar",
+            "email": "venkatesh.ksnadar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Classes\\": "classes/",
+            "Templates\\": "templates/",
+            "Renderer\\": "renderer/"
+        }
+    }
+}

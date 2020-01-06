@@ -1,0 +1,19 @@
+{
+    "name": "factory-pattern/social-network-connector",
+    "description": "Social network connector using factory design pattern",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Venkatesh Nadar",
+            "email": "venkatesh.ksnadar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Classes\\": "classes/"
+        }
+    }
+}
